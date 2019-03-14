@@ -1,0 +1,34 @@
+{
+    "comments": [
+      {
+        "id": "1",
+        "name": "Den gode frontend'er",
+        "comment": "ja nu er du også begyndt at drikke latte, så velkommen til frontend verdenen",
+        "rate": 36
+      },
+      {
+        "id": "2",
+        "name": "Den rigtig gode",
+        "comment": "det er mig der holder erfa møder, sådan laver du web 5.0 hundelorte😊 Nu skal jeg lige læse den igennem på toa🤗",
+        "rate": 50
+      },
+      {
+        "id": "3",
+        "name": "Da han narrede Muldu",
+        "comment": "Det er et sejt keyboard. Kan du prøve at holde dit øre ned til det og trykke F?",
+        "rate": 23
+      },
+      {
+        "id": "5",
+        "name": "Den med stolene",
+        "comment": "Må vi godt tage de her stole?",
+        "rate": 22
+      },
+      {
+        "name": "Den med en fridag",
+        "comment": "Vi vil gerne tage fri imorgen hvis det er okay? Bone: Men vi kan også bare komme imorgen???",
+        "rate": 34,
+        "id": "4"
+      }
+    ]
+  }
