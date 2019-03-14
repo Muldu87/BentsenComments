@@ -23,3 +23,18 @@ npm run json:server
 Open a new terminal:
 
 npm run dev:server
+
+Go to the following URL and start with some queries:
+
+http://localhost:4000/graphql
+
+ex:
+
+{
+  comment(id: "4"){
+  	name,
+    comment,
+    rate
+	}
+}
+
