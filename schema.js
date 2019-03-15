@@ -8,15 +8,6 @@ const {
     GraphQLNonNull
 } = require('graphql');
 
-/*
-// Hardcoded data
-const comments = [
-    {id:'1', name:'John Doe', comment:'jdoe@gmail.com', rate:35},
-    {id:'2', name:'Steve Smith', comment:'steve@gmail.com', rate:25},
-    {id:'3', name:'Sara Williams', comment:'sara@gmail.com', rate:32},
-];
-*/
-
 // Comment Type
 const BentsenCommentType = new GraphQLObjectType({
     name:'Comment',
@@ -38,13 +29,6 @@ const RootQuery= new GraphQLObjectType({
                 id:{type:GraphQLString}
             },
             resolve(parentValue, args){
-                /*
-                for(let i = 0;i < comments.length;i++){
-                    if(comments[i].id == args.id){
-                        return comments[i];
-                    }
-                }
-                */
                 return axios.get('http://localhost:3000/comments/'+ args.id)
                     .then(res => res.data);
 
