@@ -16,19 +16,31 @@
         "id": "3",
         "name": "Da han narrede Muldu",
         "comment": "Det er et sejt keyboard. Kan du prøve at holde dit øre ned til det og trykke F?",
-        "rate": 23
+        "rate": 98
       },
       {
         "id": "5",
         "name": "Den med stolene",
         "comment": "Må vi godt tage de her stole?",
-        "rate": 22
+        "rate": 90
       },
       {
         "name": "Den med en fridag",
         "comment": "Vi vil gerne tage fri imorgen hvis det er okay? Bone: Men vi kan også bare komme imorgen???",
-        "rate": 34,
+        "rate": 85,
         "id": "4"
+      },
+      {
+        "name": "Den med bestikket",
+        "comment": "Den rigtige Martin taber bestikket i skraldespanden. Bone sniger sig ind og siger koldt: \"La' lortet lig\"",
+        "rate": 99,
+        "id": "6"
+      },
+      {
+        "name": "Den med underbukserne",
+        "comment": "haha skulle faktisk helt tæt på skærmen, for at se hvad det var, indtil det gik op for mig, at jeg nærmest snusede indvendigt til dine boxers🤢",
+        "rate": 95,
+        "id": "7"
       }
     ]
   }
